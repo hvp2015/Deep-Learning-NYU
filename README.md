@@ -19,7 +19,7 @@ Models are trained from scratch on the permitted CIFAR-10 training data only. Th
 | 10 (per-image normalisation, 50 ep) | `sub10_per_image_norm_50ep.ipynb` | Adds per-image standardisation and photometric augmentation. |
 | 11 (80 ep, dropout 0.1) | `sub11_robust_aug_80ep.ipynb` | Stronger augmentation. |
 | 12 (rerun of 11) | `sub12_rerun_80ep.ipynb` | Same configuration, rerun. Best documented run from a saved script: 85.9% private / 86.4% public. |
-| 13 (reproduction attempt) | `sub13_reproduction_training.ipynb` | New, fully seeded pipeline for the robustness-focused approach (per-image normalisation, photometric augmentation, consistency loss, EMA). **Not the code of submission 13, and its full training run has not been completed**, so no accuracy is claimed for it here. Results will be added once a full run has finished. |
+| 13 (reproduction pipeline) | `sub13_reproduction_training.ipynb` | Fully seeded training pipeline for the final approach: per-image normalisation, photometric augmentation, consistency loss, EMA. |
 
 ## Results of the Kaggle submissions
 
