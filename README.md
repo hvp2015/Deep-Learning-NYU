@@ -19,7 +19,7 @@ Models are trained from scratch on the permitted CIFAR-10 training data only. Th
 | 10 (per-image normalisation, 50 ep) | `sub10_per_image_norm_50ep.ipynb` | Adds per-image standardisation and photometric augmentation. |
 | 11 (80 ep, dropout 0.1) | `sub11_robust_aug_80ep.ipynb` | Stronger augmentation. |
 | 12 (rerun of 11) | `sub12_rerun_80ep.ipynb` | Same configuration, rerun. Best documented run from a saved script: 85.9% private / 86.4% public. |
-| Reproducible pipeline | `cifar10_reproducible_training.ipynb` | New, fully seeded pipeline for the robustness-focused approach (per-image normalisation, photometric augmentation, consistency loss, EMA). **Not the code of submission 13, and its full training run has not been completed**, so no accuracy is claimed for it here. Results will be added once a full run has finished. |
+| 13 (reproduction attempt) | `sub13_reproduction_training.ipynb` | New, fully seeded pipeline for the robustness-focused approach (per-image normalisation, photometric augmentation, consistency loss, EMA). **Not the code of submission 13, and its full training run has not been completed**, so no accuracy is claimed for it here. Results will be added once a full run has finished. |
 
 ## Results of the Kaggle submissions
 
@@ -43,6 +43,6 @@ Models are trained from scratch on the permitted CIFAR-10 training data only. Th
 
 - **Submission 1** (ResNet-20 baseline): its notebook is not in this repository.
 - **Submission 7** (pretrained BiT ResNetV2-50, ImageNet-21k): not included. It used external pretrained weights, which the competition rules do not allow. It was a diagnostic and is not counted as a result.
-- **Submission 13**: trained locally, and the original training script is not in this repository. The 92.9% / 93.3% scores are as reported by Kaggle. `cifar10_reproducible_training.ipynb` is a separate, newly written pipeline and has not yet been shown to reproduce them.
+- **Submission 13**: trained locally, and the original training script is not in this repository. The 92.9% / 93.3% scores are as reported by Kaggle. `sub13_reproduction_training.ipynb` is a separate, newly written pipeline and has not yet been shown to reproduce them.
 
 See the project report for the full methodology and findings.
